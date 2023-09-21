@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fb;
+}
+
+.TopBar {
+    font-family: 'Varela', sans-serif;
+    display: flex;
+    color: #221289;
+}
+
+.header-logo {
+    display: block;
+    color: inherit;
+    font-size: 40px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.header-logo span:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: #f5184b;
+    width: 8px;
+    height: 8px;
+    margin-top: 17px;
+    transition: width 1s , left 1s;
+}
+
+.header-logo span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 5px;
+    position: relative;
+    text-align: right;
+    margin-right: -7px;
+    
+}
+
+@media (hover:hover) {
+    .header-logo:hover span::before {
+        width:100%;
+        left: 0%;
+    }
+}
+
