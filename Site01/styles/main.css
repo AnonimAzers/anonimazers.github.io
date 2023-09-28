@@ -97,19 +97,26 @@ main {
     
 }
 
-footer
-{
-    background-color: #43283c; 
-    margin: 0;
-    padding: 5px;
-    border-top: solid 5px #000000;
-}
-
-footer div {
+footer {
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
     align-items: center;
 }
+
+.social-links {
+    display: flex;
+    gap: 5px; /* Расстояние между ссылками */
+}
+
+footer div h3 {
+    order: 0; /* Устанавливаем порядок - справа */
+}
+
+footer div .social-links {
+    order: 1; /* Устанавливаем порядок - слева */
+}
+
+
 
 :root {
     --text-primary: #fff;
@@ -117,7 +124,6 @@ footer div {
     --text-inactive: #0D9E83;
 }
   
-
 .form1
 {
     
@@ -135,3 +141,4 @@ footer div {
     height: 300px;
     text-align: center;
 }
+
