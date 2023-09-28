@@ -43,8 +43,10 @@ footer {
 }
 
 header {
+    top: 0;
     background: #2c2c2c;
     box-shadow: #c03d00 0px 10px 25px;
+    position: sticky;
 }
 
 .header__content{
