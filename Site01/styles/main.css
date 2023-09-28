@@ -1,0 +1,137 @@
+body {
+    background-color: #a27503;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+    flex-wrap: nowrap;
+}
+
+html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    box-sizing: border-box;
+
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    margin: 25px;
+}
+
+main {
+    background: #a27503;
+
+}
+
+.container {
+    display: flex;
+    font-size: 30px;
+    background-color: #43283c;
+    box-shadow: 0px 5px 15px #43283c;
+}
+
+.top-navigation-wrap {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    align-items: center;
+}
+
+.top-navigation-wrap img {
+    width: 120px;
+}
+
+.top-navigation-main {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+    gap: .5rem;
+    position: static;
+}
+
+.main-nav {
+    margin-right: auto;
+}
+
+.main-menu {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 5.5rem;
+}
+
+.main-registration {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+    flex-shrink: 1;
+    gap: 2;
+    position: static;
+}
+
+.top-level-entry-container a {
+
+    text-decoration: none;
+    color: var(--text-inactive);
+}
+
+.current-page a {
+    color: var(--text-secondary); 
+    
+}
+
+footer
+{
+    background-color: #43283c; 
+    margin: 0;
+    padding: 5px;
+    border-top: solid 5px #000000;
+}
+
+footer div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+:root {
+    --text-primary: #fff;
+    --text-secondary: #1EEBC5;
+    --text-inactive: #0D9E83;
+}
+  
+
+.form1
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box {
+    background-color: #43283c;
+    padding: 8px 35px;
+    font-size: 17,5px;
+    color: #fff;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
