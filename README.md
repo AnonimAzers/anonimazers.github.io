@@ -1,3 +1,3 @@
 # anonimazers.github.io
 Че каво
-Сам сайт тута [About](https://anonimazers.github.io/Site01/)
+Сам сайт тута [Ну давай же, клацни меня](https://anonimazers.github.io/Site01/)
