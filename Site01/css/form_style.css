@@ -4,13 +4,14 @@ body {
     align-items: center;
     min-height: 100vh;
     width: 100%;
+    display: flex;
 }
 
 .form {
+    display: flex;
     justify-content: center;
     align-items: center;
     border: 5px solid #c03d00;
-    display: flex;
     flex-direction: column;
     width: 340px;
     height: 500px;
@@ -19,6 +20,7 @@ body {
     color: #ffffff;
     box-shadow: 0px 0px 20px 10px #c03d00;
     border-radius: 3%;
+    gap: 20px;
 }
 
 .form form {
@@ -60,6 +62,9 @@ input {
     border-radius: 5px;
 }
 
+button {
+    height: 50%;
+}
 textarea {
     box-shadow: 0px 0px 2px 2px #c03d00;
     border-radius: 5px;
@@ -78,4 +83,8 @@ l {
 
 l select {
     width: 40%;
+}
+
+body button {
+    height: 20px;
 }
