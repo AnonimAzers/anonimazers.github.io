@@ -1,0 +1,239 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    color: #303030;
+    line-height: 1.5;
+    background: #eaeaea;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background: #2c2c2c;
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #5a5a5a;
+    padding: 25px 0;
+}
+
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__links a {
+    width: 60px;
+    height: 60px;
+}
+
+.footer__links img {
+    width: 100%;
+    filter: brightness(60%);
+    transition: filter 0.3s ease-in-out; /* Плавный переход для фильтра */
+}
+
+header {
+    top: 0;
+    background: #2c2c2c;
+    box-shadow: #c03d00 0px 10px 25px;
+    position: sticky;
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 25px 0;
+}
+
+.header__logo {
+    display: block;
+    color: inherit;
+    font-size: 20px;
+    line-height: 1;
+    font-family: 'Varela', sans-serif;
+    font-weight: bold;
+}
+
+.header__logo span {
+    display: block;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    letter-spacing: 4.6px;
+}
+
+.header__menu ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+.header__menu ul li {
+    transition: background-color 0.3s ease-in-out; /* Плавный переход для фильтра */
+}
+
+.header__menu ul a {
+    color: inherit;
+    display: block;
+    padding: 10px 17px;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.header__footer {
+    background-color: #c03d00;
+    color: #ffffff;
+}
+
+.content {
+    margin: 25px;
+}
+
+.photo__block img {
+    max-width: 100%;
+    border: 5px solid #303030;
+}
+
+.table__content {
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+@media (max-width: 1019px) {
+    .header__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer_content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.header__menu ul li:hover {
+    background-color: #424243;
+}
+
+.footer__links img:hover {
+    filter: brightness(90%); /* Увеличиваем яркость при наведении */
+}
+
+.container {
+    display: flex;
+}
+
+.content__wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.body__registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration__block {
+    border: 5px solid #c03d00;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background: #2c2c2c;
+    color: #ffffff;
+}
+
+.registration__header {
+    background-color: #c03d00;
+    box-shadow: #c03d00 0px 0px 15px 0px;
+    
+}
+
+.registration__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.content__block article {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+    justify-content: space-between;
+}
+
+.block__information {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__block article h4 {
+    margin: 0;
+}
+
+.content__block article h6 {
+    margin: 0;
+}
+
+.content__block article p {
+    text-wrap: wrap;
+    color: #707070;
+    margin: 0;
+}
+
+.hr-line {
+	margin: 10px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #c8c8c8;
+}
+
+.block__author {
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    align-items: center;
+}
+
+.block__author img {
+    height: 50px;
+    width: 50px;
+    max-width: 100%;
+    border-radius: 100px; /* Радиус скругления */
+}
