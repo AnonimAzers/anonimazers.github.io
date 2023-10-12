@@ -69,3 +69,13 @@ select {
     box-shadow: 0px 0px 2px 2px #c03d00;
     border-radius: 5px;
 }
+
+l {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+l select {
+    width: 40%;
+}
